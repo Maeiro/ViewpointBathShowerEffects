@@ -1,0 +1,7 @@
+name=Viewpoint Bath & Shower Effects
+id=ViewpointBathShowerEffects
+author=Maeiro
+modversion=0.2.1
+versionMin=42.22
+require=Viewpoint,TakeABathAndShowerNew
+description=Shower spray, filling bathtub water and hot steam for Take A Bath And Shower in Viewpoint cameras. Includes Default and Somber shader variants.

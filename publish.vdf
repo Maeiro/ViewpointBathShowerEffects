@@ -1,0 +1,59 @@
+"workshopitem"
+{
+	"appid"		"108600"
+	"publishedfileid"		"3841752994"
+	"contentfolder"		"C:\\Users\\Maeiro\\Documents\\ChatGPT\\PZ - Viewpoint Mods\\ViewpointBathShowerEffects\\content"
+	"previewfile"		"C:\\Users\\Maeiro\\Documents\\ChatGPT\\PZ - Viewpoint Mods\\ViewpointBathShowerEffects\\preview.jpg"
+	"visibility"		"0"
+	"title"		"Viewpoint Bath & Shower Effects"
+	"description"		"[h1]Viewpoint Bath & Shower Effects[/h1]
+
+Adds visible shower and bathtub water, steam, and bath-salt colors to [b]Take A Bath And Shower SP/MP[/b] in Project Viewpoint's 3D cameras.
+
+[h2]Warning: shaderpack may fail when entering a save[/h2]
+
+The Bath & Shower shaderpack may fail to start when entering a save, causing Viewpoint to fall back to its Default shaderpack. This can happen because Viewpoint activates the addon shaderpack before its built-in base pack has been registered.
+
+[b]This cannot currently be fixed by this addon through Viewpoint Addon API 1.0.[/b] A proper fix requires a change to Viewpoint's shaderpack initialization. The Workshop download does not include a fix for this issue.
+
+[b]Workaround:[/b] After the save has loaded, open [b]Viewpoint > Graphics[/b] and manually select [b]Default + Bath & Shower Effects[/b] or [b]Somber + Bath & Shower Effects[/b] again.
+
+[h2]Requirements[/h2]
+[list]
+[*] Project Zomboid Build 42.22 or newer
+[*] Project Viewpoint 0.1.7 or newer (Addon API 1.0)
+[*] Take A Bath And Shower SP/MP (TakeABathAndShowerNew)
+[/list]
+
+[h2]How to install and activate[/h2]
+[list]
+[*] Subscribe to this addon, Project Viewpoint, and Take A Bath And Shower SP/MP.
+[*] In the Project Zomboid Mods menu, enable [b]Viewpoint Bath & Shower Effects[/b].
+[*] Restart the game. Viewpoint discovers addons when the game starts, so this restart is required before the addon appears in its list.
+[*] Open [b]Viewpoint > Advanced > Addons[/b], enable [b]Bath & Shower Effects[/b], and approve its Lua and shader permissions.
+[*] Open [b]Viewpoint > Graphics[/b] and select either [b]Default + Bath & Shower Effects[/b] or [b]Somber + Bath & Shower Effects[/b]. Enable only one of these shaderpack variants at a time.
+[/list]
+
+Both the addon and one shaderpack variant must be active. The selected variant inherits the corresponding Viewpoint look and adds the water and steam effect pass.
+
+[h2]Bathtubs and bath salts[/h2]
+
+Bathtub water rises and falls with the fluid amount, remains after filling stops, and disappears when empty. Hot water produces steam using TABAS's temperature and fill rules. The water surface uses TABAS's synchronized color, including Lavender, Citrus, Floral, Forest, Herb, Rose, and other custom salt colors. Salt and stain colors are not applied twice.
+
+Bathtub and bath-salt support has passed automated checks, but the bathtub model alignment and in-game appearance still need verification. Shower water and steam have been tested in-game.
+
+[h2]Notes[/h2]
+[list]
+[*] Client-side addon; do not install it on the server. Each player who wants to see the effects needs the addon locally.
+[*] The original bathing mod continues to control water use, temperature, sounds, animations, and multiplayer state.
+[*] Shower steam follows the original TABAS steam effect and its opacity. Cold showers do not create steam. Bathtub steam follows TABAS's hot-water rules.
+[*] The effects render in Viewpoint's first- and third-person cameras. The normal isometric view keeps the original game rendering.
+[*] Includes Default and Somber shaderpack variants; choose one in Viewpoint Graphics.
+[/list]
+
+Workshop ID: 3841752994
+Mod ID: ViewpointBathShowerEffects"
+	"changenote"		"Adds bathtub water, steam, and TABAS bath-salt colors; documents in-game verification status."
+}
+
+
